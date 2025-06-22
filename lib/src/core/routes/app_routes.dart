@@ -11,6 +11,8 @@ abstract class Routes {
   static const VERIFICATION = _Paths.VERIFICATION;
   static const DASHBOARD = _Paths.DASHBOARD;
   static const HOME = _Paths.HOME;
+  static const PROFILE = _Paths.PROFILE;
+  static const EDIT_PROFILE = _Paths.EDIT_PROFILE;
 }
 
 abstract class _Paths {
@@ -22,4 +24,6 @@ abstract class _Paths {
   static const VERIFICATION = "/verification";
   static const DASHBOARD = "/dashboard";
   static const HOME = "/home";
+  static const PROFILE = "/profile";
+  static const EDIT_PROFILE = "/edit_profile";
 }

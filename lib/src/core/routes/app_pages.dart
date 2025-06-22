@@ -13,6 +13,10 @@ import 'package:mindshaper/src/module/auth/views/otp_verification_view.dart';
 
 import 'package:mindshaper/src/module/home/bindings/home_binding.dart';
 import 'package:mindshaper/src/module/home/views/home_view.dart';
+import 'package:mindshaper/src/module/profile/bindings/edit_profile_binding.dart';
+import 'package:mindshaper/src/module/profile/bindings/profile_binding.dart';
+import 'package:mindshaper/src/module/profile/views/edit_profile_view.dart';
+import 'package:mindshaper/src/module/profile/views/profile_view.dart';
 import 'package:mindshaper/src/module/splash/bindings/splash_binding.dart';
 import 'package:mindshaper/src/module/splash/views/splash_view.dart';
 import 'package:get/get.dart';
@@ -79,6 +83,21 @@ class AppPages {
       binding: HomeBinding(),
       page: () {
         return HomeView();
+      },
+    ),
+    GetPage(
+      name: Routes.PROFILE,
+      binding: ProfileBinding(),
+      page: () {
+        return ProfileView();
+      },
+    ),
+
+    GetPage(
+      name: Routes.EDIT_PROFILE,
+      binding: EditProfileBinding(),
+      page: () {
+        return EditProfileView();
       },
     ),
   ];
