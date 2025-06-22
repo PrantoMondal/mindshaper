@@ -95,7 +95,7 @@ class OTPVerificationView extends BaseView<OTPVerificationController> {
                         : () {
                           arguments == "forgot_pass"
                               ? Get.toNamed(Routes.RESET_PASSWORD)
-                              : Get.offAndToNamed(Routes.HOME);
+                              : Get.offAndToNamed(Routes.SIGNIN);
                         },
                 width: double.infinity,
                 height: AppValues.container_40,

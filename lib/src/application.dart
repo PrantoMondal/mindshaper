@@ -1,5 +1,4 @@
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:mindshaper/l10n/l10n.dart';
+import 'package:mindshaper/l10n/app_localizations.dart';import 'package:mindshaper/l10n/l10n.dart';
 import 'package:mindshaper/src/core/config/build_config.dart';
 import 'package:mindshaper/src/core/routes/app_pages.dart';
 import 'package:flutter/material.dart';

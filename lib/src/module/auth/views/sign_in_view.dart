@@ -34,7 +34,7 @@ class SignInView extends BaseView<SignInController> {
             // Login Button
             PrimaryButton(
               onPressed: () {
-                Get.offAndToNamed(Routes.HOME);
+                Get.offAndToNamed(Routes.DASHBOARD);
               },
               width: double.infinity,
               height: AppValues.container_40,

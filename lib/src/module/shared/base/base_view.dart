@@ -1,4 +1,4 @@
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:mindshaper/l10n/app_localizations.dart';
 import 'package:mindshaper/src/core/config/build_config.dart';
 import 'package:mindshaper/src/core/constants/app_colors.dart';
 import 'package:mindshaper/src/core/constants/app_textstyles.dart';

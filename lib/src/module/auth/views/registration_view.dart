@@ -4,7 +4,6 @@ import 'package:mindshaper/src/core/constants/app_values.dart';
 import 'package:mindshaper/src/core/routes/app_pages.dart';
 import 'package:mindshaper/src/module/auth/controllers/registration_controller.dart';
 import 'package:mindshaper/src/module/auth/widgets/auth_header.dart';
-import 'package:mindshaper/src/module/auth/widgets/login_form.dart';
 import 'package:mindshaper/src/module/auth/widgets/register_form.dart';
 import 'package:mindshaper/src/module/shared/base/base_view.dart';
 import 'package:mindshaper/src/module/shared/widgets/primary_button.dart';

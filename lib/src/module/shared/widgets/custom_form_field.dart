@@ -1,7 +1,7 @@
 import 'package:mindshaper/src/core/constants/app_textstyles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:mindshaper/l10n/app_localizations.dart';
 
 class CustomFormField<T> extends StatefulWidget {
   CustomFormField({super.key, required this.child, required this.validation, this.initialValue});

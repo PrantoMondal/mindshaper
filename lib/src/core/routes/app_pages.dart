@@ -1,3 +1,5 @@
+import 'package:mindshaper/src/dashboard/binding/dashoard_binding.dart';
+import 'package:mindshaper/src/dashboard/view/dashboard_view.dart';
 import 'package:mindshaper/src/module/auth/bindings/forgot_pass_binding.dart';
 import 'package:mindshaper/src/module/auth/bindings/registration_binding.dart';
 import 'package:mindshaper/src/module/auth/bindings/reset_pass_binding.dart';
@@ -63,6 +65,13 @@ class AppPages {
       binding: OTPVerificationBinding(),
       page: () {
         return OTPVerificationView();
+      },
+    ),
+    GetPage(
+      name: Routes.DASHBOARD,
+      binding: DashboardBindings(),
+      page: () {
+        return DashboardView();
       },
     ),
     GetPage(

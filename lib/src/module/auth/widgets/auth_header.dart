@@ -21,7 +21,7 @@ class AuthHeader extends StatelessWidget with BaseWidgetMixin {
               children: [
                 AssetImageView(fileName: 'ms.png', width: AppValues.container_80, height: AppValues.container_80),
                 SizedBox(height: AppValues.gapXSmall),
-                AssetImageView(fileName: 'mindshaper.png'),
+                AssetImageView(fileName: 'mindshaper.png',  height: AppValues.container_80),
                 SizedBox(height: AppValues.gap),
                 Align(alignment: Alignment.centerLeft, child: Text(screenTitle, style: text2xlSemiBold)),
                 SizedBox(height: AppValues.gapXSmall),

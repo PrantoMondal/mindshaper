@@ -84,7 +84,7 @@ class ResetPassView extends BaseView<ResetPassController> {
               SizedBox(height: AppValues.gapXLarge),
               PrimaryButton(
                 onPressed: () {
-                  Get.offAndToNamed(Routes.HOME);
+                  Get.offAndToNamed(Routes.SIGNIN);
                 },
                 width: double.infinity,
                 height: AppValues.container_40,
